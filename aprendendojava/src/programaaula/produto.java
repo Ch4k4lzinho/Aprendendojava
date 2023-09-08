@@ -18,5 +18,15 @@ public class produto {
         this.quantidade -= quantidade;
     }
 
-
+    public String tostString() {
+        return nome
+        + ", $ " 
+        + preço 
+        + ","
+        + quantidade
+        + " quantidade, Total: $"
+        + valorTotalemStoque();
+        
+    }
+    
 }

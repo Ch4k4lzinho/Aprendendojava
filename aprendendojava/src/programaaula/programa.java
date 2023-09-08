@@ -19,6 +19,7 @@ public class programa {public static void main(String[] args) {
     produto.quantidade = scan.nextInt();
 
     System.out.println(produto.nome + ", " + produto.preço + ", " + produto.quantidade  );
+    System.out.println(produto);
 
 
 
